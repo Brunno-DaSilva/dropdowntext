@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+:root {
+  /*Colors*/
+  --dark-blue: #184467;
+  --light-green: #0e9a7e;
+  --light-blue-accent: #5ab2c4;
+  --yellow-accent: #e6b00f;
+  --orange-accent: rgb(233, 89, 53);
+  --foreground: #626874;
+  --off-white: #f8f8f8;
+  --transition: ease-in-out 0.4s;
+  --radius: 0.25rem;
+  --border: 1px solid #e95b37;
+
+  /* Font-Sizes*/
+  --fs-900: 9.375rem;
+  --fs-800: 3.5rem;
+  --fs-700: 1.5rem;
+  --fs-600: 1rem;
+  --fs-500: 1rem;
+  --fs-400: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+
+  /*Font-Family*/
+  --ff-robot: "Roboto", sans-serif;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -17,6 +45,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-family: var(--ff-robot);
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
